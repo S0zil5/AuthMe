@@ -44,7 +44,7 @@ public class AuthMe {
     }
 
     /*@Listener
-    public void onDeath(DestructEntityEvent.Death e, @Getter("getTargetEntity") Player p) {
-        p.sendMessage(Text.of("You Died!"));
+    public void onJoinMSG(ClientConnectionEvent.Join e, @Getter("getTargetEntity") Player p) {
+        p.sendMessage(Text.of("You must register first!"));
     } */
 }
